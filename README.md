@@ -46,12 +46,17 @@ team     : billing  (confidence 1.00)
            technical  0.000
            account    0.000
 refund   : 0.99
-urgency  : 1.45 — Bình thường, xử lý trong vòng hai ngày
+urgency  : 1.41 — Bình thường, xử lý trong vòng hai ngày
 
 → tự động chuyển đến bộ phận billing
 ```
 
-Một lần gọi mất khoảng 600 milli giây và tốn khoảng 22 phần triệu đô la.
+Chi phí cho một lần gọi vào khoảng 22 phần triệu đô la, gần như là miễn phí.
+
+Còn thời gian thì tuỳ đường truyền mạng của các bạn: khi mình đo nhiều lần qua
+endpoint thì trung vị khoảng **600 milli giây**, nhưng ngay trong lúc quay video
+thì một lần gọi mất tới **1,6 giây**, và phần lớn độ chênh đó là do mạng, chứ
+không phải do model.
 
 ## Hai điều đáng lưu ý
 
